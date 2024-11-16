@@ -1,0 +1,40 @@
+{
+	"schemaVersion": 1,
+	"id": "test_amara1000",
+	"version": "${version}",
+	"name": "test_amara1000",
+	"description": "a mod to test minecraft java modding",
+	"authors": [
+		"amara1000"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "MIT",
+	"icon": "assets/test_amara1000/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"test.amara1000.TestAmara1000"
+		],
+		"client": [
+			"test.amara1000.TestAmara1000Client"
+		],
+		"fabric-datagen": [
+			"test.amara1000.TestAmara1000DataGenerator"
+		]
+	},
+	"mixins": [
+		"test_amara1000.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.16.9",
+		"minecraft": "~1.21.1",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
