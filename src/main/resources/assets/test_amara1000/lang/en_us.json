@@ -1,4 +1,7 @@
 {
   "item.test_amara1000.lol": "LoL",
-  "block.test_amara1000.lol_block": "LoL_BlOcK"
+  "block.test_amara1000.lol_block": "LoL_BlOcK",
+  "itemgroup.test_amara1000.lol_items": "LoL iTeMs",
+  "itemgroup.test_amara1000.lol_blocks": "LoL bLoCkS",
+  "itemgroup.test_amara1000.amara1000_items": "amara's items"
 }
