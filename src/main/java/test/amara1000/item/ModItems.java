@@ -8,10 +8,11 @@ import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
 import net.minecraft.util.Identifier;
 import test.amara1000.TestAmara1000;
+import test.amara1000.item.custom.ChiselItem;
 
 public class ModItems {
     public static final Item LOL = registerItem("lol", new Item(new Item.Settings()));
-
+    public static final Item SWAPPER=registerItem("swapper", new ChiselItem(new Item.Settings().maxDamage(32)));
 
 
 

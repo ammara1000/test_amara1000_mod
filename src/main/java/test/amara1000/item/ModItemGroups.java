@@ -20,6 +20,7 @@ public class ModItemGroups {
                     .displayName(Text.translatable("itemgroup.test_amara1000.lol_items"))
                     .entries((displayContext, entries) -> {
                        entries.add(ModItems.LOL);
+                        entries.add(ModItems.SWAPPER);
                     }).build());
     public static final ItemGroup LOL_BLOCKS_GROUP = Registry.register(Registries.ITEM_GROUP,
             Identifier.of(TestAmara1000.MOD_ID,"lol_blocks"),
